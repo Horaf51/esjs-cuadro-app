@@ -1,22 +1,7 @@
-importar { Terminal } desde '@es-js/terminal'
-
-asincrono funcion inicio() {
-	Terminal.limpiar()
-
-	Terminal.escribir('Ingresa un valor:')
-
-	const resultado = esperar Terminal.leer()
-
-	Terminal.escribir({
-		Resultado: resultado,
-		Tipo: tipoDe resultado,
-	})
-
-	Terminal.escribir('Presiona ENTER para volver a iniciar')
-
-	esperar Terminal.leerEnter()
-
-	esperar inicio()
-}
-
-inicio()
+function sumaNPares(n) {
+let suma = 0
+for (let i = 1; i <= n; i++) {
+  suma += i * 2;
+  }
+  return suma;}
+  
